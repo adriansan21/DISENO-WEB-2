@@ -60,14 +60,19 @@
 
 .logo {
   position: absolute;
-  top: 40px;
-  left: 15px;
+  /* height: 100px; */
+  /* top: 40px;
+  left: 15px; */
+}
+
+.logoelearning {
+  height: 50px;
 }
 
 .menu-title1 {
   position: absolute;
   font-size: 40px;
-  top: 10px;
+  top: 5px;
   left: 65px;
   color: #36b44a;
   font-family: 'Ubuntu', sans-serif;
@@ -76,8 +81,170 @@
 .menu-title2 {
   position: absolute;
   font-size: 40px;
-  top: 10px;
+  top: 5px;
   left: 100px;
   color: black;
   font-family: 'Ubuntu', sans-serif;
+}
+
+.menuright {
+  /* position: absolute; */
+  display: inline-block;
+}
+
+.menuright-out {
+  text-align: right;
+}
+
+.mainbackground {
+  /* position: absolute; */
+  background-image: url("images/fondo.jpg");
+  width: 99%;
+  background-size: cover;
+  /* height: 60%; */
+  text-align: center;
+}
+
+.search {
+  list-style-type: none;
+}
+
+.search-bar {
+  width: 100px;
+}
+
+#barrasearch {
+    min-width: 400px;
+    min-height: 30px;
+}
+
+#botonsearch {
+  width: 100px;
+  height: 30px;
+  background-color: #36b44a;
+}
+
+
+.main-title1 {
+  font-size: 40px;
+  color: #36b44a;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.main-title2 {
+  font-size: 40px;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.services {
+  background-color: white;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+
+#services-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.services-column {
+  color: black;
+  list-style-type: none;
+}
+
+.services-title {
+  color: black;
+  font-size: 30px;
+}
+
+.logoservices {
+  height: 85px;
+}
+
+.content {
+  background-color: #f3f6fb;
+}
+
+.content-title {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.content-title-verde {
+  color: #36b44a;
+}
+
+.content-menu {
+  background-color: white;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 20px;
+}
+
+.content-menutext {
+  text-align: left;
+  padding: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.content-menu li {
+  display: inline-block;
+}
+
+.content-menu li:hover {
+  color: white;
+  background-color: #36b44a;
+}
+
+.content-menutext-right:hover {
+  color: #36b44a !important;
+  background-color: white  !important;
+  border: thin solid #36b44a  !important;
+  border-radius: 10px;
+}
+
+.contentul {
+  padding-left: 10px;
+}
+
+.content-menutext-right{
+  float: right;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.content-courses {
+  background-color: #f3f6fb;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+
+#courses-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.courseimg {
+  height: 180px;
+  max-width: 100%;
+}
+
+.course-title {
+  text-align: left;
+}
+
+.course-subtitle {
+  color: grey;
+  text-align: left;
 }
