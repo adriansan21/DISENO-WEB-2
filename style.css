@@ -543,5 +543,29 @@
 
 @media (max-width: 1024px) {
   body {
-    background-color: black;
+    background-color: white;
   }
+
+.footer {
+  grid-template-columns: 1fr;
+}
+
+#services-columns {
+  grid-template-columns: 1fr;
+}
+
+.menu {
+  position: absolute;
+  grid-template-columns: 1fr;
+  display: inline-block;
+}
+
+#courses-columns {
+  grid-template-columns: 1fr;
+}
+
+.gridvideos {
+  grid-template-columns: 1fr;
+}
+
+}
