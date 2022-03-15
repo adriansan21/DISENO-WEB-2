@@ -568,4 +568,25 @@
   grid-template-columns: 1fr;
 }
 
+.logo {
+  position: relative;
+}
+
+.menu {
+  width: 100%;
+  z-index: 4;
+}
+
+.menuright-out {
+  float: left;
+}
+
+.mainbackground {
+  margin-top: 100px;
+}
+
+
+
+
+
 }
